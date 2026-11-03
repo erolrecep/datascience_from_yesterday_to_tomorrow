@@ -1,0 +1,10 @@
+# Requirements for Data Science: From Yesterday to Tomorrow
+# Topic: Formula 1 Race Simulation, Telemetry, Animation & Machine Learning
+
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+ipykernel>=6.29.0
+ipython>=8.20.0
+
