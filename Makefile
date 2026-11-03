@@ -22,7 +22,7 @@ COLOR_INFO    := \033[36m
 COLOR_SUCCESS := \033[32m
 COLOR_WARNING := \033[33m
 
-.PHONY: help venv install install-dev data test test-cov run-notebooks jupyter colab clean distclean all
+.PHONY: help venv install install-dev data test test-cov run-notebooks jupyter presentation colab clean distclean all
 
 help: ## Show this help message with available commands
 	@echo ""
@@ -91,6 +91,10 @@ run-notebooks: install-dev data ## Execute all Day 2 Jupyter notebooks in-place
 jupyter: install ## Launch local JupyterLab web server on port 8888
 	@echo -e "$(COLOR_INFO)--> Starting JupyterLab on http://127.0.0.1:8888/lab ...$(COLOR_RESET)"
 	@$(PYTHON) -m jupyterlab --no-browser --port=8888 --ip=127.0.0.1 --ServerApp.token='' --ServerApp.password=''
+
+presentation: ## Launch Reveal.js Day 1 presentation web server on port 8000
+	@echo -e "$(COLOR_INFO)--> Starting Reveal.js presentation at http://127.0.0.1:8000/day1/ ...$(COLOR_RESET)"
+	@python3 -m http.server 8000
 
 colab: ## Print Google Colab direct-launch links
 	@echo ""

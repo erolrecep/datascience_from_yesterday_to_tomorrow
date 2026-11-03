@@ -16,6 +16,7 @@ The project is structured into two core tracks:
 ```
 .
 ├── day1/                                     # Retrospective Essay & Presentation Slides
+│   ├── index.html                            # Interactive 24-slide Reveal.js presentation
 │   ├── data_science_blog.md                  # Comprehensive 25-year thought-leadership retrospective
 │   └── presentation_slides.md                # Executive slide deck outline with talk tracks
 ├── day2/                                     # Hands-On Telemetry, Animation & Machine Learning
@@ -36,8 +37,11 @@ The project is structured into two core tracks:
 
 ## 📑 Day 1: Presentation & Retrospective
 
+* 🖥️ **Interactive Reveal.js Presentation**: [`day1/index.html`](./day1/index.html)  
+  *Run locally with `make presentation` and open **[http://127.0.0.1:8000/day1/](http://127.0.0.1:8000/day1/)***  
+  *(24 interactive slides with KaTeX math, embedded telemetry snapshots, glassmorphism UI, keyboard navigation, and speaker notes).*
 * 📄 **[`day1/data_science_blog.md`](./day1/data_science_blog.md)**: *"Data Science from Yesterday to Tomorrow: Lessons from a Quarter-Century of Hype and Reality"*
-* 🖥️ **[`day1/presentation_slides.md`](./day1/presentation_slides.md)**: 7-Slide Executive Deck covering the 5 Epochs of Data Science (2000–Present) and strategic career principles.
+* 📝 **[`day1/presentation_slides.md`](./day1/presentation_slides.md)**: Markdown Slide Deck Outline with talk tracks and speaking notes.
 
 ---
 
