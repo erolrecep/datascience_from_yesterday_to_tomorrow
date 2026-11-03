@@ -56,9 +56,9 @@ The impact of this single publication cannot be overstated:
 ### The Open Source Movement: A Personal Journey
 Around this time, being on the ground in Turkey and looking across the global software ecosystem, it became glaringly obvious that while everyone was talking about Data Science, accessible educational roadmaps were scarce. Academia was too theoretical, vendor documentation was fragmented, and the community was hungry for practical guidance.
 
-I started sharing resources publicly and created the **`awesome-datascience`** open-source repository on GitHub. 
+I started sharing resources publicly and created the [**`awesome-datascience`**](https://github.com/academic/awesome-datascience) open-source repository on GitHub. 
 
-What began as a personal curation of papers, tutorials, datasets, and libraries quickly struck a global nerve. Within months, it garnered thousands of stars from engineers, researchers, and practitioners across every continent. Open-source contributors submitted pull requests from Silicon Valley, Berlin, Tokyo, and Bangalore. The overwhelming volume of messages I received—asking how to pivot into the field, what math was truly necessary, and how to separate genuine signal from marketing hype—made one truth indisputable: **the hunger for data literacy was universal.**
+What began as a personal curation of papers, tutorials, datasets, and libraries quickly struck a global nerve. Today, the repository has surpassed **30,000 stars and 6,700 forks** on GitHub, actively referenced by engineers, researchers, and practitioners across every continent. Open-source contributors submitted pull requests from Silicon Valley, Berlin, Tokyo, and Bangalore. The overwhelming volume of messages I received—asking how to pivot into the field, what math was truly necessary, and how to separate genuine signal from marketing hype—made one truth indisputable: **the hunger for data literacy was universal.**
 
 ---
 

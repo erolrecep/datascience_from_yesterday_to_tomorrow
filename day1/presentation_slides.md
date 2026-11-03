@@ -6,7 +6,7 @@
 ### Slide 1: Title & Executive Overview
 * **Title**: Data Science from Yesterday to Tomorrow
 * **Subtitle**: Lessons from a Quarter-Century of Hype and Reality (2000–Present)
-* **Presenter**: [Your Name / awesome-datascience Creator]
+* **Presenter**: Recep Erol, PhD (Creator & Curator of [academic/awesome-datascience](https://github.com/academic/awesome-datascience))
 * **Core Premise**: Tools, titles, and libraries change every few years—first principles and data intuition endure.
 
 ---
@@ -22,8 +22,8 @@
 ### Slide 3: Episode 2 (2008–2014) — The HBR Catalyst & Open Source Explosion
 * **The 2012 Inflection Point**: Harvard Business Review declares [*"Data Scientist: The Sexiest Job of the 21st Century"*](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) (Davenport & Patil, Oct 2012).
 * **The Unicorn Expectation**: Advanced Math/Statistics + Software Engineering + Domain Expertise.
-* **The Open Source Movement**: Launch of the `awesome-datascience` repository on GitHub.
-  * Rapid growth to thousands of stars.
+* **The Open Source Movement**: Launch of the [**`academic/awesome-datascience`**](https://github.com/academic/awesome-datascience) repository on GitHub.
+  * Rapid organic growth to over **30,000 stars** and **6,700 forks**.
   * Global community pull requests from 50+ countries.
   * Lesson: The appetite for accessible, structured data knowledge is borderless.
 
