@@ -34,7 +34,7 @@ By the late 2000s, social media networks had democratized user participation and
 
 Then came October 2012. 
 
-Thomas Davenport and D.J. Patil published their now-legendary *Harvard Business Review* article: **"Data Scientist: The Sexiest Job of the 21st Century."**
+Thomas Davenport and D.J. Patil published their now-legendary *Harvard Business Review* article: [**"Data Scientist: The Sexiest Job of the 21st Century"**](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) (October 2012).
 
 ```
                  ┌──────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ The industry formalized the **Data Science Lifecycle**:
 
 Machine Learning transitioned from academic curiosity to enterprise backbone. The promise of "predicting the future" caught the public imagination. 
 
-Predictive models were no longer confined to predicting server failure or stock pricing; they were predicting intimate human behavior. The most famous case study of this era was the **Target retail pregnancy prediction algorithm**:
+Predictive models were no longer confined to predicting server failure or stock pricing; they were predicting intimate human behavior. The most famous case study of this era—detailed by Charles Duhigg in [*The New York Times Magazine* ("How Companies Learn Your Secrets")](https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html)—was the **Target retail pregnancy prediction algorithm**:
 > By analyzing purchasing patterns of 25 specific items (such as unscented lotions, magnesium supplements, and large cotton balls), Target's analytical team assigned pregnancy prediction scores to female shoppers. They began mailing coupon booklets for baby cribs and diapers to a teenage girl before her own family was aware of her pregnancy.
 
 This era proved two things simultaneously:

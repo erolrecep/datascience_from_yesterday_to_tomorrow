@@ -11,7 +11,7 @@
 
 ---
 
-### Slide 2: Epoch 1 (2000–2007) — The Archeology of the Clickstream
+### Slide 2: Episode 1 (2000–2007) — The Archeology of the Clickstream
 * **Context**: The transition from Web 1.0 (static HTML brochures) to Web 2.0 (dynamic, database-backed apps).
 * **The Telemetry Influx**: Web servers flooded with HTTP access logs, session IDs, and sequential clickstreams.
 * **The Question**: *"We have gigabytes of logs. Can we use this data to deliver better services?"*
@@ -19,8 +19,8 @@
 
 ---
 
-### Slide 3: Epoch 2 (2008–2014) — The HBR Catalyst & Open Source Explosion
-* **The 2012 Inflection Point**: Harvard Business Review declares *"Data Scientist: The Sexiest Job of the 21st Century"* (Davenport & Patil).
+### Slide 3: Episode 2 (2008–2014) — The HBR Catalyst & Open Source Explosion
+* **The 2012 Inflection Point**: Harvard Business Review declares [*"Data Scientist: The Sexiest Job of the 21st Century"*](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) (Davenport & Patil, Oct 2012).
 * **The Unicorn Expectation**: Advanced Math/Statistics + Software Engineering + Domain Expertise.
 * **The Open Source Movement**: Launch of the `awesome-datascience` repository on GitHub.
   * Rapid growth to thousands of stars.
@@ -29,15 +29,15 @@
 
 ---
 
-### Slide 4: Epoch 3 (2015–2019) — Industrialization & Predictive ML
+### Slide 4: Episode 3 (2015–2019) — Industrialization & Predictive ML
 * **The Realization**: Notebook prototypes must become production systems.
 * **Formalization of the Data Lifecycle**: Ingestion $\rightarrow$ Wrangling $\rightarrow$ Feature Engineering $\rightarrow$ Modeling $\rightarrow$ CI/CD Deployment $\rightarrow$ Monitoring.
-* **The Case Study**: Target’s Pregnancy Prediction Algorithm (predictive capability vs. ethical privacy boundaries).
+* **The Case Study**: Target’s Pregnancy Prediction Algorithm — [*The New York Times Magazine*](https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html) by Charles Duhigg.
 * **Early Automation**: Narrow NLP chatbots replacing high-volume support triage.
 
 ---
 
-### Slide 5: Epoch 4 (2020–2023) — Autonomy & The Synthetic Data Pivot
+### Slide 5: Episode 4 (2020–2023) — Autonomy & The Synthetic Data Pivot
 * **The Autonomous Vehicle (AV) Crucible**: Sensor fusion (Cameras, LiDAR, Radar) running real-time edge inference.
 * **The Long-Tail Wall**: Physically impossible to collect real-world data covering every severe weather or unusual corner case.
 * **The Paradigm Shift**: Moving from *collecting data* to *generating data*.
@@ -45,7 +45,7 @@
 
 ---
 
-### Slide 6: Epoch 5 (2024–Today) — The Great Title Splintering
+### Slide 6: Episode 5 (2024–Today) — The Great Title Splintering
 * **The End of the "Unicorn"**:
   * **Data Analyst**: Business insights, metrics, storytelling, SQL.
   * **Data Engineer**: Distributed pipelines, lakehouses, ETL reliability.
