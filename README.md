@@ -5,6 +5,7 @@
 [![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](hands-on/f1_simulation.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Keynote Slides](https://img.shields.io/badge/Keynote-Reveal.js%20Presentation-8a2be2.svg)](https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/)
+<br/>
 [![Blog Part 1](https://img.shields.io/badge/Blog-Part%201%3A%20Foundations-38bdf8.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/)
 [![Blog Part 2](https://img.shields.io/badge/Blog-Part%202%3A%20Retrospective-6366f1.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)
 
