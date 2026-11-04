@@ -44,7 +44,7 @@ The project is structured into two core tracks: **Keynote Presentation & Article
 
 The theoretical foundation and historical retrospective are published and freely accessible on the technical blog:
 
-* 🖥️ **[Interactive Reveal.js Presentation Deck](https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/)**  
+* 🖥️ **[Data Science: From Yesterday to Tomorrow (Interactive 24-Slide Deck)](https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/)**  
   *(24 interactive slides with KaTeX math, embedded telemetry snapshots, glassmorphism UI, keyboard navigation, and speaker notes).*
 * 📄 **[Part 1: Why Data Science + AI is Your Unstoppable Superpower](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/)**  
   *A 15-year journey from commodity laptops and MapReduce to supercomputers, $30B enterprise problem, and foundation models—featuring the Parable of the Alpine Pass, clinical target leakage, and reactive computational graphs.*
