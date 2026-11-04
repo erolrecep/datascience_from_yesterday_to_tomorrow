@@ -15,9 +15,6 @@
 
 </div>
 
-> 🖥️ **Interactive Keynote Presentation**: [Launch the 24-Slide Reveal.js Deck &rarr;](https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/)  
-> 📖 **Published Retrospective Articles**: [Part 1: Why Data Science + AI is Your Unstoppable Superpower](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/) | [Part 2: Lessons from a Quarter-Century of Hype and Reality](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)
-
 ---
 
 ## 📂 Repository Structure
