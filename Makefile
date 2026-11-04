@@ -64,10 +64,10 @@ install-dev: venv ## Install development and testing dependencies (pytest, nbcon
 	fi
 	@echo -e "$(COLOR_SUCCESS)--> Development dependencies installed successfully.$(COLOR_RESET)"
 
-data: install ## Generate reproducible F1 telemetry datasets in day2/
+data: install ## Generate reproducible F1 telemetry datasets in hands-on/
 	@echo -e "$(COLOR_INFO)--> Generating deterministic F1 Monza telemetry dataset...$(COLOR_RESET)"
-	@cd day2 && ../$(PYTHON) f1_simulation.py
-	@echo -e "$(COLOR_SUCCESS)--> Datasets generated at day2/f1_monza_race_data.csv and day2/f1_monza_highres_telemetry.csv$(COLOR_RESET)"
+	@cd hands-on && ../$(PYTHON) f1_simulation.py
+	@echo -e "$(COLOR_SUCCESS)--> Datasets generated at hands-on/f1_monza_race_data.csv and hands-on/f1_monza_highres_telemetry.csv$(COLOR_RESET)"
 
 test: install-dev ## Run automated pytest verification suite
 	@echo -e "$(COLOR_INFO)--> Running test suite across simulation, models, and notebooks...$(COLOR_RESET)"
@@ -76,16 +76,16 @@ test: install-dev ## Run automated pytest verification suite
 
 test-cov: install-dev ## Run test suite with coverage report
 	@echo -e "$(COLOR_INFO)--> Running test suite with coverage analysis...$(COLOR_RESET)"
-	@PYTHONPATH=day2 $(PYTEST) --cov=f1_simulation --cov-report=term-missing tests/
+	@PYTHONPATH=hands-on $(PYTEST) --cov=f1_simulation --cov-report=term-missing tests/
 	@echo -e "$(COLOR_SUCCESS)--> Coverage analysis complete.$(COLOR_RESET)"
 
-run-notebooks: install-dev data ## Execute all Day 2 Jupyter notebooks in-place
-	@echo -e "$(COLOR_INFO)--> Executing day2/01_f1_data_generation_and_visualization.ipynb...$(COLOR_RESET)"
-	@$(JUPYTER) nbconvert --to notebook --execute --inplace day2/01_f1_data_generation_and_visualization.ipynb
-	@echo -e "$(COLOR_INFO)--> Executing day2/02_f1_race_animation.ipynb...$(COLOR_RESET)"
-	@$(JUPYTER) nbconvert --to notebook --execute --inplace day2/02_f1_race_animation.ipynb
-	@echo -e "$(COLOR_INFO)--> Executing day2/03_f1_predictive_modeling_and_whatif.ipynb...$(COLOR_RESET)"
-	@$(JUPYTER) nbconvert --to notebook --execute --inplace day2/03_f1_predictive_modeling_and_whatif.ipynb
+run-notebooks: install-dev data ## Execute all Hands-On Jupyter notebooks in-place
+	@echo -e "$(COLOR_INFO)--> Executing hands-on/01_f1_data_generation_and_visualization.ipynb...$(COLOR_RESET)"
+	@$(JUPYTER) nbconvert --to notebook --execute --inplace hands-on/01_f1_data_generation_and_visualization.ipynb
+	@echo -e "$(COLOR_INFO)--> Executing hands-on/02_f1_race_animation.ipynb...$(COLOR_RESET)"
+	@$(JUPYTER) nbconvert --to notebook --execute --inplace hands-on/02_f1_race_animation.ipynb
+	@echo -e "$(COLOR_INFO)--> Executing hands-on/03_f1_predictive_modeling_and_whatif.ipynb...$(COLOR_RESET)"
+	@$(JUPYTER) nbconvert --to notebook --execute --inplace hands-on/03_f1_predictive_modeling_and_whatif.ipynb
 	@echo -e "$(COLOR_SUCCESS)--> All notebooks executed successfully with valid outputs!$(COLOR_RESET)"
 
 jupyter: install ## Launch local JupyterLab web server on port 8888
@@ -105,20 +105,20 @@ colab: ## Print Google Colab direct-launch links
 	@echo -e "Open notebooks directly in Google Colab (no local installation required):"
 	@echo ""
 	@echo -e "  $(COLOR_SUCCESS)Lab 1 (Data Gen & EDA):$(COLOR_RESET)"
-	@echo -e "  https://colab.research.google.com/github/erolrecep/datascience_from_yesterday_to_tomorrow/blob/main/day2/01_f1_data_generation_and_visualization.ipynb"
+	@echo -e "  https://colab.research.google.com/github/erolrecep/datascience_from_yesterday_to_tomorrow/blob/main/hands-on/01_f1_data_generation_and_visualization.ipynb"
 	@echo ""
 	@echo -e "  $(COLOR_SUCCESS)Lab 2 (Race Animation):$(COLOR_RESET)"
-	@echo -e "  https://colab.research.google.com/github/erolrecep/datascience_from_yesterday_to_tomorrow/blob/main/day2/02_f1_race_animation.ipynb"
+	@echo -e "  https://colab.research.google.com/github/erolrecep/datascience_from_yesterday_to_tomorrow/blob/main/hands-on/02_f1_race_animation.ipynb"
 	@echo ""
 	@echo -e "  $(COLOR_SUCCESS)Lab 3 (Predictive & What-If):$(COLOR_RESET)"
-	@echo -e "  https://colab.research.google.com/github/erolrecep/datascience_from_yesterday_to_tomorrow/blob/main/day2/03_f1_predictive_modeling_and_whatif.ipynb"
+	@echo -e "  https://colab.research.google.com/github/erolrecep/datascience_from_yesterday_to_tomorrow/blob/main/hands-on/03_f1_predictive_modeling_and_whatif.ipynb"
 	@echo ""
 	@echo -e "$(COLOR_WARNING)Note: All notebooks include self-healing dataset loaders for Colab.$(COLOR_RESET)"
 	@echo ""
 
 clean: ## Clean Python caches, build artifacts, and checkpoints
 	@echo -e "$(COLOR_INFO)--> Cleaning temporary caches and build artifacts...$(COLOR_RESET)"
-	@rm -rf __pycache__ tests/__pycache__ day2/__pycache__ .pytest_cache .coverage
+	@rm -rf __pycache__ tests/__pycache__ hands-on/__pycache__ .pytest_cache .coverage
 	@find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
 	@find . -type d -name ".ipynb_checkpoints" -exec rm -rf {} + 2>/dev/null || true
 	@find . -type f -name "*.pyc" -delete 2>/dev/null || true

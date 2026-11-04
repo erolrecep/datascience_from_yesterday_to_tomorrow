@@ -8,7 +8,7 @@ from sklearn.inspection import permutation_importance
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'day2'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'hands-on'))
 from f1_simulation import generate_f1_race_telemetry, simulate_wet_race
 
 @pytest.fixture(scope="module")

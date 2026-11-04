@@ -1,7 +1,7 @@
 """
 Formula 1 Race Telemetry Simulation Engine
 Topic: Autodromo Nazionale Monza - Macro 53 Laps & Continuous Intra-Lap Telemetry
-Used by Day 2 interactive notebooks, animation studio, and automated pytest test suites.
+Used by hands-on interactive notebooks, animation studio, and automated pytest test suites.
 """
 
 import numpy as np

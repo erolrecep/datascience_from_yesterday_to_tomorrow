@@ -3,7 +3,7 @@ import json
 import pytest
 
 WORKDIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DAY2_DIR = os.path.join(WORKDIR, "day2")
+HANDSON_DIR = os.path.join(WORKDIR, "hands-on")
 
 NOTEBOOKS = [
     "01_f1_data_generation_and_visualization.ipynb",
@@ -13,7 +13,7 @@ NOTEBOOKS = [
 
 @pytest.mark.parametrize("nb_name", NOTEBOOKS)
 def test_notebook_structure_and_colab_badge(nb_name):
-    nb_path = os.path.join(DAY2_DIR, nb_name)
+    nb_path = os.path.join(HANDSON_DIR, nb_name)
     assert os.path.exists(nb_path), f"Notebook missing: {nb_name}"
     
     with open(nb_path, "r", encoding="utf-8") as f:
@@ -27,11 +27,11 @@ def test_notebook_structure_and_colab_badge(nb_name):
     first_cell_src = "".join(nb["cells"][0]["source"])
     assert "colab-badge.svg" in first_cell_src, f"Colab badge missing from {nb_name}"
     assert "colab.research.google.com" in first_cell_src, f"Colab URL missing from {nb_name}"
-    assert "day2" in first_cell_src, f"Colab URL in {nb_name} should point to day2 directory"
+    assert "hands-on" in first_cell_src, f"Colab URL in {nb_name} should point to hands-on directory"
 
 @pytest.mark.parametrize("nb_name", NOTEBOOKS)
 def test_notebook_colab_bootstrap(nb_name):
-    nb_path = os.path.join(DAY2_DIR, nb_name)
+    nb_path = os.path.join(HANDSON_DIR, nb_name)
     with open(nb_path, "r", encoding="utf-8") as f:
         nb = json.load(f)
         

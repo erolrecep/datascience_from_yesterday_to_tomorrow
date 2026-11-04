@@ -4,7 +4,7 @@ import pytest
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'day2'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'hands-on'))
 
 from f1_simulation import (
     generate_f1_race_telemetry,
