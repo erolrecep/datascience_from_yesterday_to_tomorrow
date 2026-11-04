@@ -4,21 +4,23 @@
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.14-blue.svg)](requirements.txt)
 [![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](day2/f1_simulation.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Keynote Slides](https://img.shields.io/badge/Keynote-Reveal.js%20Presentation-8a2be2.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/presentation.html)
+[![Blog Part 1](https://img.shields.io/badge/Blog-Part%201%3A%20Foundations-38bdf8.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/)
+[![Blog Part 2](https://img.shields.io/badge/Blog-Part%202%3A%20Retrospective-6366f1.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)
 
 A structured curriculum exploring the 25-year evolution of Data Science—from early Web 2.0 clickstream telemetry in 2000 to modern Foundation Models, physics-informed synthetic simulation, and counterfactual causal reasoning.
+
+> 🖥️ **Interactive Keynote Presentation**: [Launch the 24-Slide Reveal.js Deck &rarr;](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/presentation.html)  
+> 📖 **Published Retrospective Articles**: [Part 1: Why Data Science + AI is Your Unstoppable Superpower](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/) | [Part 2: Lessons from a Quarter-Century of Hype and Reality](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)
 
 ---
 
 ## 📂 Repository Structure
 
-The project is structured into two core tracks:
+The project is structured into two core tracks: **Day 1 Presentation & Articles** (published online) and **Day 2 Hands-On Simulation Labs** (hosted here):
 
 ```
 .
-├── day1/                                     # Retrospective Essay & Presentation Slides
-│   ├── index.html                            # Interactive 24-slide Reveal.js presentation
-│   ├── data_science_blog.md                  # Comprehensive 25-year thought-leadership retrospective
-│   └── presentation_slides.md                # Executive slide deck outline with talk tracks
 ├── day2/                                     # Hands-On Telemetry, Animation & Machine Learning
 │   ├── 01_f1_data_generation_and_visualization.ipynb # Lab 1: Deterministic generation & EDA
 │   ├── 02_f1_race_animation.ipynb            # Lab 2: Dual-panel circuit & intra-lap animation
@@ -28,6 +30,7 @@ The project is structured into two core tracks:
 │   └── f1_monza_highres_telemetry.csv        # Continuous intra-lap high-frequency telemetry
 ├── assets/                                   # Visual snapshots and telemetry plots
 ├── tests/                                    # Automated pytest verification suite (14 tests)
+├── index.html                                # Instant redirect to online keynote presentation
 ├── Makefile                                  # Automated build, test, and execution pipeline
 ├── requirements.txt                          # Core dependencies
 └── requirements-dev.txt                      # Development & testing dependencies
@@ -35,13 +38,18 @@ The project is structured into two core tracks:
 
 ---
 
-## 📑 Day 1: Presentation & Retrospective
+## 📑 Day 1: Keynote Presentation & Retrospective Essays
 
-* 🖥️ **Interactive Reveal.js Presentation**: [`day1/index.html`](./day1/index.html)  
-  *Run locally with `make presentation` and open **[http://127.0.0.1:8000/day1/](http://127.0.0.1:8000/day1/)***  
+The theoretical foundation and historical retrospective are published and freely accessible on the technical blog:
+
+* 🖥️ **[Interactive Reveal.js Presentation Deck](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/presentation.html)**  
   *(24 interactive slides with KaTeX math, embedded telemetry snapshots, glassmorphism UI, keyboard navigation, and speaker notes).*
-* 📄 **[`day1/data_science_blog.md`](./day1/data_science_blog.md)**: *"Data Science from Yesterday to Tomorrow: Lessons from a Quarter-Century of Hype and Reality"*
-* 📝 **[`day1/presentation_slides.md`](./day1/presentation_slides.md)**: Markdown Slide Deck Outline with talk tracks and speaking notes.
+* 📄 **[Part 1: Why Data Science + AI is Your Unstoppable Superpower](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/)**  
+  *A 15-year journey from commodity laptops and MapReduce to supercomputers, $30B enterprise problem, and foundation models—featuring the Parable of the Alpine Pass, clinical target leakage, and reactive computational graphs.*
+* 📄 **[Part 2: Lessons from a Quarter-Century of Hype and Reality](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)**  
+  *A 25-year chronological retrospective across 5 Episodes (2000–Present), the 2012 HBR catalyst, the birth of `academic/awesome-datascience`, physics-informed synthetic telemetry, and counterfactual reasoning.*
+* ⭐ **[academic/awesome-datascience](https://github.com/academic/awesome-datascience)**  
+  *Curated open-source guide with over 30,300 stars and 6,700 forks.*
 
 ---
 
@@ -104,6 +112,9 @@ make run-notebooks
 
 # 6. Start local JupyterLab web server
 make jupyter
+
+# 7. Open Reveal.js keynote presentation in browser
+make presentation
 ```
 
 ---
