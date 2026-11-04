@@ -93,8 +93,8 @@ jupyter: install ## Launch local JupyterLab web server on port 8888
 	@$(PYTHON) -m jupyterlab --no-browser --port=8888 --ip=127.0.0.1 --ServerApp.token='' --ServerApp.password=''
 
 presentation: ## Open Reveal.js keynote presentation in browser
-	@echo -e "$(COLOR_INFO)--> Opening Reveal.js keynote presentation at https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/presentation.html ...$(COLOR_RESET)"
-	@python3 -m webbrowser "https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/presentation.html" || open "https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/presentation.html"
+	@echo -e "$(COLOR_INFO)--> Opening Reveal.js keynote presentation at https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/ ...$(COLOR_RESET)"
+	@python3 -m webbrowser "https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/" || open "https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/"
 
 colab: ## Print Google Colab direct-launch links
 	@echo ""
