@@ -1,3 +1,5 @@
+<div align="center">
+
 # Data Science: From Yesterday to Tomorrow 🏎️📊
 
 [![Tests](https://img.shields.io/badge/pytest-passing-success.svg)](tests/)
@@ -9,7 +11,9 @@
 [![Blog Part 1](https://img.shields.io/badge/Blog-Part%201%3A%20Foundations-38bdf8.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/)
 [![Blog Part 2](https://img.shields.io/badge/Blog-Part%202%3A%20Retrospective-6366f1.svg)](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)
 
-A structured curriculum exploring the 25-year evolution of Data Science—from early Web 2.0 clickstream telemetry in 2000 to modern Foundation Models, physics-informed synthetic simulation, and counterfactual causal reasoning.
+<p>A structured curriculum exploring the 25-year evolution of Data Science—from early Web 2.0 clickstream telemetry in 2000 to modern Foundation Models, physics-informed synthetic simulation, and counterfactual causal reasoning.</p>
+
+</div>
 
 > 🖥️ **Interactive Keynote Presentation**: [Launch the 24-Slide Reveal.js Deck &rarr;](https://erolrecep.github.io/datascience_from_yesterday_to_tomorrow/)  
 > 📖 **Published Retrospective Articles**: [Part 1: Why Data Science + AI is Your Unstoppable Superpower](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow/) | [Part 2: Lessons from a Quarter-Century of Hype and Reality](https://erolrecep.github.io/posts/data-science-yesterday-tomorrow-part-2/)
